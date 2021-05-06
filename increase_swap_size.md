@@ -1,3 +1,9 @@
+**Swap** is a special area on a computer, which the OS can use as additional RAM.
+
+*Note: before running the following commands, please make sure you have a backup of your data!*
+
+In the example below, we will resize the swap space available in the /swapfile from 2 GB to 20 GB.
+
 1. Turn off all swap processes  
 ```sudo swapoff -a```
 
