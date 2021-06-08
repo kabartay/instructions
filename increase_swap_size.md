@@ -2,6 +2,11 @@
 
 *Note: before running the following commands, please make sure you have a backup of your data!*
 
+To see swap size in Linux, type this command in the terminal: 
+```swapon -s```  
+Type ```free -m``` to see both your RAM and your swap space usage in Linux.  
+Also, check a swap space utilization on Linux by command ```htop```.
+
 In the example below, we will resize the swap space available in the /swapfile from 2 GB to 20 GB.
 
 1. Turn off all swap processes  
